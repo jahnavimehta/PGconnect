@@ -36,22 +36,22 @@ discover, review, and select suitable PGs based on their preferences and require
 
 ## Features
 
-1. **User Authentication and Authorization**
+1. **User Authentication and Authorization:**
     Secure sign-up and login functionality for users.
     Authentication mechanisms to ensure secure access and protection of user data.
-2. **Listing Management**
+2. **Listing Management:**
     CRUD operations (Create, Read, Update, Delete) for PG listings.
     Dedicated routes for listing management including new listing creation, editing, updating, and deletion.
-3. **Review System**
+3. **Review System:**
     Capability for users to leave reviews and ratings for PG accommodations.
     Integration of user reviews into PG listings to aid decision-making for other users.
-4. **Responsive UI/UX**
+4. **Responsive UI/UX:**
     User-friendly interface with a responsive design for seamless experience across devices.
     Consistent navigation with a navbar and footer for easy access to different sections of the application.
-5. **Validation and Error Handling**
+5. **Validation and Error Handling:**
     Client-side validation to ensure data integrity and prevent erroneous inputs.
     Custom error handling to provide meaningful feedback to users in case of errors.
-6. **Database and Backend**
+6. **Database and Backend:**
     MongoDB as the database to store PG listings, user information, and reviews.
     Node.js and Express.js for the backend server to handle HTTP requests and responses.
     Integration of Mongoose middleware for schema validation and data modeling.
