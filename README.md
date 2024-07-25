@@ -59,12 +59,19 @@ discover, review, and select suitable PGs based on their preferences and require
 ## Technology Stack:
 
 -**Frontend:** EJS (Embedded JavaScript) for dynamic HTML rendering.
+
 -**Backend:** Node.js with Express.js framework for server-side application logic.
+
 -**Database:** MongoDB for efficient and scalable data storage.
+
 -**CSS Framework:** Custom CSS for styling and responsive design.
+
 -**Validation:** Client-side validation using JavaScript and server-side validation with Mongoose middleware.
+
 -**Routing:** Express Router to manage different routes (index, create, read, update, delete) for seamless navigation.
+
 -**Authentication:** Implementation of user authentication and authorization for secure access to user-specific features.
+
 -**Modeling:** Mongoose for defining schemas and models for user, listing, and review data.
 
 ## Installation
