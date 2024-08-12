@@ -7,7 +7,6 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
-- [Screenshots](#screenshots)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
@@ -19,20 +18,6 @@
 PGconnect is a web application designed to simplify the process of finding paying guest (PG) accommodations for interns in Bangalore. 
 Inspired by the challenges faced during internship PG hunting, PGconnect aims to provide a user-friendly platform where interns can 
 discover, review, and select suitable PGs based on their preferences and requirements.
-
-
-## Screenshots
-<p>Some screenshots of the app for a preview of the user interface and functionalities.</p>
-<p align="center">
-    <img src="https://github.com/jahnavimehta/PGconnect/blob/main/public/src/Screenshot%20(4985).png" alt="Screenshot 1" width="250">
-    <img src="https://github.com/jahnavimehta/PGconnect/blob/main/public/src/Screenshot%20(4986).png" alt="Screenshot 2" width="250">
-</p>
-
-<p align="center">
-    <img src="https://github.com/jahnavimehta/PGconnect/blob/main/public/src/Screenshot%20(4987).png" alt="Screenshot 3" width="250">
-    <img src="https://github.com/jahnavimehta/PGconnect/blob/main/public/src/Screenshot%20(4988).png" alt="Screenshot 4" width="250">
-</p>
-
 
 ## Features
 
