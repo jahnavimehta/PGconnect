@@ -1,13 +1,7 @@
 <% layout("/layouts/boilerplate") -%>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PGconnect</title>
-</head> -->
-
+<script>
+    const mapToken = "<%= process.env.MAP_TOKEN %>";
+</script>
 <div class="row">
     <div class="col-8 offset-3">
         <h3><%= listing.title %></h3>
@@ -65,8 +59,10 @@
     </form>
 
     <hr />
-    <p><b>All Reviews</b></p>
+    
+    <% if(listing.reviews.length > 0) { %>
     <div class="row">
+    <p><b>All Reviews</b></p>
     <% for(review of listing.reviews){ %>
         <div class="card col-5 ms-3 mb-3">
             <div class="card-body">
@@ -80,9 +76,14 @@
             </div>
         </div>
     <% } %>
-</div>    
+    </div> 
+    <% } %>
+</div>
+
+<div class="col-8 offset-3 mb-3">
+    <h3>Where you will be</h3>
+    <div id="map"></div>
 </div>
 </div>
 
-<!-- 
-</html> -->
+<script src="/js/map.js"></script>
