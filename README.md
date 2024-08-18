@@ -46,6 +46,10 @@ discover, review, and select suitable PGs based on their preferences and require
     Node.js and Express.js for the backend server to handle HTTP requests and responses.
     Integration of Mongoose middleware for schema validation and data modeling.
 
+12. **Maps API**
+    Integrating interactive maps into the web application using Mapbox API and Mapbox GL JS, a JS library.
+    This allows users to view and interact with custom maps, complete with markers, popups, and real-time data.
+
 ## Technology Stack:
 
 -**Frontend:** EJS (Embedded JavaScript) for dynamic HTML rendering.
